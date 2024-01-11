@@ -1,0 +1,18 @@
+def create_new_string(input_string):
+    length = len(input_string)
+
+    
+    if length >= 3:
+        first_char = input_string[0]
+        middle_char = input_string[length // 2]
+        last_char = input_string[-1]
+
+        new_string = f"{first_char}{middle_char}{last_char}"
+        return new_string
+    else:
+        return "Input string should have at least 3 characters."
+
+
+user_input = input("Enter a string: ")
+result_string = create_new_string(user_input)
+print("New string:", result_string)

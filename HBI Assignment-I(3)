@@ -1,0 +1,10 @@
+def remove_characters(input_string, n):
+    new_string = input_string[n:]
+    return new_string
+
+
+user_input = input("Enter a string: ")
+n = int(input("Enter the value of n: "))
+
+result_string = remove_characters(user_input, n)
+print("New string:", result_string)

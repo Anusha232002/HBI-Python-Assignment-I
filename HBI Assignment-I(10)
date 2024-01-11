@@ -1,0 +1,11 @@
+def split_and_display(input_string):
+    
+    substrings = input_string.split('-')
+
+    
+    for substring in substrings:
+        print(substring)
+
+
+input_string = "Rahul-is-a-doctor."
+split_and_display(input_string)

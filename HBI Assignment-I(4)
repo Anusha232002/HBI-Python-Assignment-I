@@ -1,0 +1,9 @@
+def first_and_last_same(numbers):
+    # Check if the list is not empty and the first and last elements are the same
+    return bool(numbers) and numbers[0] == numbers[-1]
+
+
+my_list = [1, 2, 3, 4, 5]
+result = first_and_last_same(my_list)
+
+print("Are the first and last numbers the same?", result
